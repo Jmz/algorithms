@@ -3,6 +3,6 @@
     "phpunit/phpunit": "^6.0"
   },
   "autoload": {
-    "psr-4": {"Algorithms\\": "src/"}
+    "psr-4": {"Algorithms\\": "src/algorithms"}
   }
 }
