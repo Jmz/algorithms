@@ -1,5 +1,7 @@
 <?php
 
+namespace Tests\DataStructures;
+
 require('vendor/autoload.php');
 
 use DataStructures\TriangularArray;
@@ -13,7 +15,7 @@ use DataStructures\TriangularArray;
  * Newcastle | 456  |   234    |   280   |   0     |   193
  * Edinburgh | 666  |   353    |   356   |   193   |   0
  */
-class TriangularArrayTest extends PHPUnit_Framework_TestCase
+class TriangularArrayTest extends \PHPUnit_Framework_TestCase
 {
     private $underTest;
 

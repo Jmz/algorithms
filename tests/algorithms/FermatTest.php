@@ -1,10 +1,12 @@
 <?php
 
+namespace Tests\Algorithms;
+
 include('vendor/autoload.php');
 
 use Algorithms\Fermat;
 
-class FermatTest extends PHPUnit_Framework_TestCase
+class FermatTest extends \PHPUnit_Framework_TestCase
 {
     private $underTest;
 

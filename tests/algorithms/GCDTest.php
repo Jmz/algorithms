@@ -1,10 +1,12 @@
 <?php
 
+namespace Tests\Algorithms;
+
 include('vendor/autoload.php');
 
 use Algorithms\GCD;
 
-class GCDTest extends PHPUnit_Framework_TestCase
+class GCDTest extends \PHPUnit_Framework_TestCase
 {
     private $underTest;
 

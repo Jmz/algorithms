@@ -5,7 +5,8 @@
   "autoload": {
     "psr-4": {
       "Algorithms\\": "src/algorithms",
-      "DataStructures\\": "src/datastructures"
+      "DataStructures\\": "src/datastructures",
+      "Tests\\": "tests"
     }
   }
 }
